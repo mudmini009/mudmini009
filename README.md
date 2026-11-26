@@ -17,7 +17,7 @@ I build systems where deterministic engineering meets generative intelligence—
 | Project | Domain | Highlights & Tech Stack |
 | :--- | :--- | :--- |
 | **[DUALPATH-CORE](https://github.com/mudmini009/DualPath-Core-TTRPG-engine)** | Neuro-Symbolic AI & Multi-Agent Systems | Published at **IEEE iSAI-NLP 2026**. Decouples Python `Lite 5e` rules from 8 calibrated LLM sub-agents via pipe-delimited **TOON** (`-54.6%` tokens, `214 ms` Path A latency, `98.6%` score across 90 test scenarios). |
-| **MechAim-CV** | Computer Vision & Robotics Control | Physical aim-tracking robotic system combining **YOLOv5 / OpenCV** real-time target detection with **PID control** and custom **ESP32 Mecanum-wheeled** hardware. |
+| **[MechAim-CV](https://github.com/mudmini009/MechAim-CV)** | Computer Vision & Robotics Control | Physical aim-tracking robotic system combining **YOLOv5 / OpenCV** real-time target detection with **PID control** and custom **ESP32 Mecanum-wheeled** hardware. |
 | **Ashen Paws: Prologue** | 2D Game Dev & Sound Design | Dark-fantasy souls-like prototype built in **Unity (C#)** and published on itch.io; led **Audio Production, UI/UX, Narrative, and Level Design**. |
 | **Real-Time ASR & RAG Pipelines** | Speech & Applied NLP | Optimized **NVIDIA Parakeet** streaming ASR with low-latency audio caching, and built a multimodal **RAG** assistant for the IBM Granite Generative AI Hackathon. |
 
