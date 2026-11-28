@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="214" viewBox="0 0 960 214" fill="none">
+  <defs>
+    <linearGradient id="panelL" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#0b1120"/>
+    </linearGradient>
+    <linearGradient id="panelR" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0c131f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- LEFT PANEL: IEEE iSAI-NLP 2026 Research -->
+  <g transform="translate(0, 4)">
+    <rect x="0.5" y="0.5" width="469" height="205" rx="15" fill="url(#panelL)" stroke="#38bdf8" stroke-opacity="0.35"/>
+    <rect x="20" y="18" width="170" height="22" rx="11" fill="#38bdf8" fill-opacity="0.14" stroke="#38bdf8" stroke-opacity="0.45"/>
+    <text x="105" y="32.5" text-anchor="middle" fill="#7dd3fc" font-family="Segoe UI, Ubuntu, Cantarell, sans-serif" font-size="10" font-weight="700">IEEE iSAI-NLP 2026 • PAPER #39</text>
+    <text x="449" y="32.5" text-anchor="end" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">PUBLIC REPO</text>
+
+    <text x="20" y="64" fill="#f8fafc" font-family="Segoe UI, Ubuntu, Cantarell, sans-serif" font-size="18.5" font-weight="800">DUALPATH-CORE Engine</text>
+    <text x="20" y="83" fill="#94a3b8" font-family="Segoe UI, Ubuntu, Cantarell, sans-serif" font-size="11.5">Neuro-symbolic multi-agent decoupling eliminating LLM math &amp; rule drift</text>
+
+    <!-- Mini Flow Diagram -->
+    <g transform="translate(20, 100)">
+      <rect x="0" y="0" width="88" height="44" rx="8" fill="#17233b" stroke="#7dd3fc" stroke-opacity="0.38"/>
+      <text x="44" y="19" text-anchor="middle" fill="#e0f2fe" font-family="Segoe UI, Ubuntu, Cantarell, sans-serif" font-size="10" font-weight="700">Router</text>
+      <text x="44" y="33" text-anchor="middle" fill="#7dd3fc" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8.8">T=0.1 Pass-1</text>
+
+      <line x1="88" y1="22" x2="106" y2="22" stroke="#64748b" stroke-width="1.5"/>
+
+      <rect x="106" y="0" width="112" height="44" rx="8" fill="#122138" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <text x="162" y="19" text-anchor="middle" fill="#38bdf8" font-family="Segoe UI, Ubuntu, Cantarell, sans-serif" font-size="10" font-weight="700">Path A · Python</text>
+      <text x="162" y="33" text-anchor="middle" fill="#cbd5e1" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8.8">Lite 5e · TOON</text>
+
+      <line x1="218" y1="22" x2="236" y2="22" stroke="#64748b" stroke-width="1.5"/>
+
+      <rect x="236" y="0" width="110" height="44" rx="8" fill="#1d1838" stroke="#a78bfa" stroke-opacity="0.45"/>
+      <text x="291" y="19" text-anchor="middle" fill="#c084fc" font-family="Segoe UI, Ubuntu, Cantarell, sans-serif" font-size="10" font-weight="700">Path B · 8 Agents</text>
+      <text x="291" y="33" text-anchor="middle" fill="#cbd5e1" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8.8">Arbiter · Narrator</text>
+
+      <line x1="346" y1="22" x2="362" y2="22" stroke="#64748b" stroke-width="1.5"/>
+
+      <rect x="362" y="0" width="67" height="44" rx="8" fill="#0d2622" stroke="#34d399" stroke-opacity="0.5"/>
+      <text x="395.5" y="19" text-anchor="middle" fill="#34d399" font-family="Segoe UI, Ubuntu, Cantarell, sans-serif" font-size="10" font-weight="700">Guard</text>
+      <text x="395.5" y="33" text-anchor="middle" fill="#a7f3d0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8.8">0 LLM Write</text>
+    </g>
+
+    <!-- Bottom Metric Pills -->
+    <g transform="translate(20, 160)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="700">
+      <rect x="0" y="0" width="136" height="26" rx="7" fill="#132629" stroke="#34d399" stroke-opacity="0.35"/>
+      <text x="68" y="16.5" text-anchor="middle" fill="#6ee7b7">46% → 98.6% Score</text>
+
+      <rect x="146" y="0" width="128" height="26" rx="7" fill="#122138" stroke="#38bdf8" stroke-opacity="0.35"/>
+      <text x="210" y="16.5" text-anchor="middle" fill="#7dd3fc">214 ms Path A (~20x)</text>
+
+      <rect x="284" y="0" width="145" height="26" rx="7" fill="#1b1834" stroke="#a78bfa" stroke-opacity="0.35"/>
+      <text x="356.5" y="16.5" text-anchor="middle" fill="#ddd6fe">-54.6% Tokens (TOON)</text>
+    </g>
+  </g>
+
+  <!-- RIGHT PANEL: Dhamma Auto-Poster Private Production -->
+  <g transform="translate(490, 4)">
+    <rect x="0.5" y="0.5" width="469" height="205" rx="15" fill="url(#panelR)" stroke="#fbbf24" stroke-opacity="0.35"/>
+    <rect x="20" y="18" width="196" height="22" rx="11" fill="#fbbf24" fill-opacity="0.14" stroke="#fbbf24" stroke-opacity="0.45"/>
+    <text x="118" y="32.5" text-anchor="middle" fill="#fde68a" font-family="Segoe UI, Ubuntu, Cantarell, sans-serif" font-size="10" font-weight="700">PRIVATE PROD • RUNNING 4 MONTHS</text>
+    <text x="449" y="32.5" text-anchor="end" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">PRIVATE SYSTEM</text>
+
+    <text x="20" y="64" fill="#f8fafc" font-family="Segoe UI, Ubuntu, Cantarell, sans-serif" font-size="18.5" font-weight="800">Dhamma Auto-Poster Pipeline</text>
+    <text x="20" y="83" fill="#94a3b8" font-family="Segoe UI, Ubuntu, Cantarell, sans-serif" font-size="11.5">Autonomous multi-modal RAG, 3D WebGL drama &amp; multi-platform publisher</text>
+
+    <!-- Mini Flow Diagram -->
+    <g transform="translate(20, 100)">
+      <rect x="0" y="0" width="104" height="44" rx="8" fill="#17233b" stroke="#fbbf24" stroke-opacity="0.38"/>
+      <text x="52" y="19" text-anchor="middle" fill="#fde68a" font-family="Segoe UI, Ubuntu, Cantarell, sans-serif" font-size="10" font-weight="700">RAG + Weather</text>
+      <text x="52" y="33" text-anchor="middle" fill="#cbd5e1" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="7.8">2,701 Docs · 77P</text>
+
+      <line x1="104" y1="22" x2="115" y2="22" stroke="#64748b" stroke-width="1.5"/>
+
+      <rect x="115" y="0" width="101" height="44" rx="8" fill="#1b1834" stroke="#a78bfa" stroke-opacity="0.45"/>
+      <text x="165.5" y="19" text-anchor="middle" fill="#c084fc" font-family="Segoe UI, Ubuntu, Cantarell, sans-serif" font-size="10" font-weight="700">GenAI Cascade</text>
+      <text x="165.5" y="33" text-anchor="middle" fill="#cbd5e1" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8.0">Gemini · FLUX.1</text>
+
+      <line x1="216" y1="22" x2="227" y2="22" stroke="#64748b" stroke-width="1.5"/>
+
+      <rect x="227" y="0" width="102" height="44" rx="8" fill="#122138" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <text x="278" y="19" text-anchor="middle" fill="#38bdf8" font-family="Segoe UI, Ubuntu, Cantarell, sans-serif" font-size="10" font-weight="700">Render + Mix</text>
+      <text x="278" y="33" text-anchor="middle" fill="#cbd5e1" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="7.8">Three.js · -14 LUFS</text>
+
+      <line x1="329" y1="22" x2="340" y2="22" stroke="#64748b" stroke-width="1.5"/>
+
+      <rect x="340" y="0" width="89" height="44" rx="8" fill="#0d2622" stroke="#34d399" stroke-opacity="0.5"/>
+      <text x="384.5" y="19" text-anchor="middle" fill="#34d399" font-family="Segoe UI, Ubuntu, Cantarell, sans-serif" font-size="10" font-weight="700">Publish</text>
+      <text x="384.5" y="33" text-anchor="middle" fill="#a7f3d0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="7.8">FB·IG·YT·FTP</text>
+    </g>
+
+    <!-- Bottom Metric Pills -->
+    <g transform="translate(20, 160)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="700">
+      <rect x="0" y="0" width="136" height="26" rx="7" fill="#231e12" stroke="#fbbf24" stroke-opacity="0.35"/>
+      <text x="68" y="16.5" text-anchor="middle" fill="#fde68a">101 Cards · 82 Reels</text>
+
+      <rect x="146" y="0" width="134" height="26" rx="7" fill="#132629" stroke="#34d399" stroke-opacity="0.35"/>
+      <text x="213" y="16.5" text-anchor="middle" fill="#6ee7b7">0 THB Image API</text>
+
+      <rect x="290" y="0" width="139" height="26" rx="7" fill="#122138" stroke="#38bdf8" stroke-opacity="0.35"/>
+      <text x="359.5" y="16.5" text-anchor="middle" fill="#7dd3fc">3D Drama + 4MP Stock</text>
+    </g>
+  </g>
+</svg>
